@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Quick Start</title>
+</head>
+
+<body>
+    <div class="container my-3">
+        <h1 class="text-center border-bottom border-1 pb-2 mb-4">Quick Start</h1>
+        <p>This Quick Start tutorial is designed to give you a jump-start of our system so you could be up and running within minutes. Upon completion of this tutorial, you will have better understanding of our entire system. This will take only few minutes
+            of your time.</p>
+        <p>Following screenshot shows sample home page that you started with. Mouseover on screenshot and it will hightlight the blocks. Click on highlighted blocks to see the instructions on how to change each of these blocks.
+        </p>
+        <center>
+            <div class="quickstart-container d-flex justify-content-center mt-4">
+                <!--Place Image Here having 800px width-->
+                <img src="https://bulletlink.com/template-133/quickstart_133.jpg" alt="template" usemap="#quickstart" class="shadow rounded w-100">
+                <div class="map-selector"></div>
+            </div>
+
+            <map name="quickstart" id="quickstart">
+
+                <!--Write Block name in "data-block" and location in "data-location" attribute. Write instructions under <textarea>-->
+
+                <textarea data-block="Top Links" data-location="7,5,195,28">
+                    <p>Update in this block requires changes from our side. Create a support ticket and tell us what you like to change and we will update that for you.</p><p>Click on "<b>24x7 Support</b>" link from Site Manager to create support tickets.</p>
+                </textarea>
+
+                <textarea data-block="Social Icons" data-location="720,5,800,28">
+                    <p>Update in this block requires changes from our side. Create a support ticket and tell us what you like to change and we will update that for you.</p><p>Click on "<b>24x7 Support</b>" link from Site Manager to create support tickets.</p>
+                </textarea>
+
+                <textarea data-block="Company Logo" data-location="228,27,571,80">
+                    <p>Here are the steps to upload logo in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Settings</b>" from Site Manager.</li>
+                        <li>Click on Browse button on "<b>Company Logo</b>" and upload up to <b>1250</b> pix wide logo.</li>
+                        <li>Click on "<b>Submit</b>".</li>
+                    </ol>
+                    <p>Open new browser window and visit your home page.</p>
+                    <p>Click on browser refresh button if new Logo is not updated.</p>
+                    <p>Note: You can also change text under "<b>Company Logo (HTML)</b>" field to use HTML logo.</p>
+                </textarea>
+
+                <textarea data-block="Menus" data-location="6,88,791,131">
+                    <p>Here are the steps to add menus and sub-menus in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Menus</b>" icon from Site Manager.</li> 
+                        <li>Click on "<b>new</b>".</li> 
+                        <li>For this exercise, type MyMenu in "<b>Menu</b>" field.</li> 
+                        <li>Type 1.5 in "<b>Order No.</b>" field.</li> 
+                        <li>Choose "<b>Menu Position = Horizontal</b>".</li> 
+                        <li>Do not worry about other items for now.</li> 
+                        <li>Click on "<b>Submit</b>".</li> 
+                        <li>You should see MyMenu under Menu list.</li> 
+                        <li>Click on "<b>MyMenu</b>".</li> 
+                        <li>Click on "<b>new</b>".</li> 
+                        <li>For this exercise, type MySubMenu in Sub Menu field.</li> 
+                        <li>Type 1 in "<b>Order No.</b>" field.</li>
+                        <li>Do not worry about other items for now.</li>
+                        <li>Click on "<b>Submit</b>" and refresh your home page to see the MyMenu added in menu list.</li> 
+                    </ol>
+                </textarea>
+
+                <textarea data-block="Highlight 5" data-location="7,141,791,621">
+                    <p>Here are the steps to display article in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Articles</b>" from Site Manager.
+                            <li>Click on "<b>new</b>" from top.</li>
+                            <li>Choose any Menu.</li>
+                            <li>Choose "<b>Add to Highlight5 = Yes</b>".</li>
+                            <li>Fill out the rest of the required information.</li>
+                            <li>Click on "<b>submit</b>" and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="Highlight 4" data-location="6,646,393,1643">
+                    <p>Here are the steps to display articles in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Articles</b>" from Site Manager.</li>
+                        <li>Click on "<b>new</b>" from top.</li>
+                        <li>Choose any Menu.</li>
+                        <li>Choose "<b>Add to Highlight4 = Yes</b>".</li>
+                        <li>Fill out the rest of the required information.</li>
+                        <li>Click on "<b>Submit</b>" and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="Highlight 2" data-location="406,646,587,1219">
+                    <p>Here are the steps to display articles in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Articles</b>" from Site Manager.</li>
+                        <li>Click on "<b>new</b>" from top.</li>
+                        <li>Choose any Menu.</li>
+                        <li>Choose "<b>Add to Highlight2 = Yes</b>".</li>
+                        <li>Fill out the rest of the required information.</li>
+                        <li>Click on "<b>Submit</b>" and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="Highlight 1" data-location="601,646,792,1515">
+                    <p>Here are the steps to display articles in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Articles</b>" from Site Manager.</li>
+                        <li>Click on "<b>new</b>" from top.</li>
+                        <li>Choose any Menu.</li>
+                        <li>Choose "<b>Add to Highlight = Yes</b>".</li>
+                        <li>Fill out the rest of the required information.</li>
+                        <li>Click on "<b>Submit</b>" and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="Poll" data-location="406,1227,589,1528">
+                    <p>Here are the steps to display poll in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Polls</b>" from Site Manager.</li>
+                        <li>Click on "<b>new</b>".</li>
+                        <li>Leave Menu blank.</li>
+                        <li>Choose "<b>Poll Type = SingleChoice-Radio</b>".</li>
+                        <li>Choose "<b>Poll Location = Poll1</b>".</li>
+                        <li>Type the "<b>Question</b>".</li>
+                        <li>Type at least two "<b>Answer</b>".</li>
+                        <li>Click on "<b>Submit</b>" and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="AdGroup 12" data-location="6,1658,390,1713">
+                    <p>Here are the steps to upload ads in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Ads</b>" icon from Site Manager.</li>
+                        <li>Click on "<b>AdGroup12</b>".</li>
+                        <li>Click on "<b>new</b>".</li>
+                        <li>Type "<b>Ad Description</b>".</li>
+                        <li>Upload banner ad image under "<b>Ad Image</b>". Image size can be <b>700</b> pix wide.</li>
+                        <li>Click on "<b>Submit"</b> and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="AdGroup 11" data-location="407,1533,587,1713">
+                    <p>Here are the steps to upload ads in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Ads</b>" icon from Site Manager.</li>
+                        <li>Click on "<b>AdGroup12</b>".</li>
+                        <li>Click on "<b>new</b>".</li>
+                        <li>Type "<b>Ad Description</b>".</li>
+                        <li>Upload banner ad image under "<b>Ad Image</b>". Image size can be <b>300</b> pix wide.</li>
+                        <li>Click on "<b>Submit"</b> and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="AdGroup 13" data-location="602,1525,800,1713">
+                    <p>Here are the steps to upload ads in this block.</p>
+                    <ol>
+                        <li>Click on "<b>Ads</b>" icon from Site Manager.</li>
+                        <li>Click on "<b>AdGroup12</b>".</li>
+                        <li>Click on "<b>new</b>".</li>
+                        <li>Type "<b>Ad Description</b>".</li>
+                        <li>Upload banner ad image under "<b>Ad Image</b>". Image size can be <b>300</b> pix wide.</li>
+                        <li>Click on "<b>Submit"</b> and refresh your home page to see the changes.</li>
+                    </ol>
+                </textarea>
+
+                <textarea data-block="Preview Section" data-location="5,1732,793,1929">
+                    <p>Changes in this block requires coding from our end. Therefore, you need to create support tickets and provide <b>sub-menu</b> name that you want to place in this section.</p><p>Click on "<b>24x7 Support</b>" link from Site Manager to create support tickets.</p>
+                </textarea>
+
+                <textarea data-block="Preview Section" data-location="5,1945,793,2147">
+                    <p>Changes in this block requires coding from our end. Therefore, you need to create support tickets and provide <b>sub-menu</b> name that you want to place in this section.</p><p>Click on "<b>24x7 Support</b>" link from Site Manager to create support tickets.</p>
+                </textarea>
+
+                <textarea data-block="Footer" data-location="7,2181,791,2350">
+                    <p>Update in this block requires changes from our side. Create a support ticket and tell us what you like to change and we will update that for you.</p><p>Click on "<b>24x7 Support</b>" link from Site Manager to create support tickets.</p>
+                </textarea>
+
+                <!-- <textarea data-block="Block Name" data-location="0,0,0,0"></textarea> -->
+            </map>
+        </center>
+        <div id="block-modal"></div>
+        <div id="block-css"></div>
+    </div>
+    <script>
+        var t = document.querySelectorAll(`#quickstart textarea`);
+        if (t.length > 0) {
+            for (var u = 0; u < t.length; u++) {
+                t[u].outerHTML = `<section data-block="${t[u].getAttribute('data-block')}" data-location="${t[u].getAttribute('data-location')}"><textarea>${t[u].innerHTML}</textarea></section>`;
+            }
+        }
+        var q = document.querySelectorAll(`#quickstart section`);
+        if (q.length > 0) {
+            for (var i = 0; i < q.length; i++) {
+                q[i].insertAdjacentHTML(`afterbegin`, `<area title="${q[i].getAttribute('data-block')}" shape="react" coords="${q[i].getAttribute('data-location')}">`)
+                q[i].addEventListener(`mouseover`, function() {
+                    var coords = this.getAttribute(`data-location`).split(`,`);
+                    var width = document.getElementsByClassName(`quickstart-container`)[0].offsetWidth;
+                    var height = document.getElementsByClassName(`quickstart-container`)[0].offsetHeight;
+                    document.getElementsByClassName(`map-selector`)[0].classList.add(`hover`);
+                    document.getElementsByClassName(`map-selector`)[0].setAttribute(`style`, `left:${coords[0]}px;top:${coords[1]}px;right:${width - coords[2]}px;bottom:${height - coords[3]}px;`);
+                }, function() {
+                    document.getElementsByClassName(`map-selector`)[0].classList.remove(`hover`);
+                    document.getElementsByClassName(`map-selector`)[0].setAttribute(`style`, ``);
+                });
+            }
+        }
+        var ba = document.querySelectorAll(`area`);
+        if (ba.length > 0) {
+            for (x = 0; x < ba.length; x++) {
+                ba[x].addEventListener(`click`, function() {
+                    document.getElementById(`block-modal`).innerHTML = `<button type='button' class='block-button btn btn-primary d-none' data-bs-toggle='modal' data-bs-target='#staticBackdrop'>Steps</button> <div class='modal fade' id='staticBackdrop' data-bs-backdrop='static' data-bs-keyboard='false' tabindex='-1' aria-labelledby='staticBackdropLabel' aria-hidden='true'> <div class='modal-dialog modal-dialog-scrollable modal-dialog-centered'> <div class='modal-content'> <div class='modal-header bg-primary'> <h5 class='modal-title fw-bold text-light w-100 text-center' id='staticBackdropLabel'>${this.title}</h5> <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button> </div> <div class='modal-body'>${this.nextElementSibling.value.trim()}</div> </div> </div> </div>`;
+                    document.getElementsByClassName(`block-button`)[0].click();
+                });
+                ba[x].addEventListener(`mouseover`, function() {
+                    var y = this.title;
+                    setTimeout(function() {
+                        document.getElementById(`block-css`).innerHTML = ``;
+                        document.getElementById(`block-css`).insertAdjacentHTML(`beforeend`, `<style>.map-selector.hover::after{content:"${y}"}</style>`);
+                    }, 200);
+                });
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .quickstart-container {
+            position: relative;
+            display: inline-block;
+            width: 800px;
+        }
+        
+        .quickstart-container img {
+            display: block;
+        }
+        
+        .tooltip-inner {
+            max-width: 40vw !important;
+            text-align: left !important;
+        }
+        
+        .quickstart-container .map-selector {
+            left: 0;
+            top: 0;
+            right: auto;
+            bottom: auto;
+            color: #dddddd00;
+            transition-duration: 0;
+            transition-timing-function: ease-in-out;
+            transition-property: top, left, right, bottom, color, border;
+        }
+        
+        .quickstart-container .map-selector.hover {
+            color: #dddddd98;
+        }
+        
+        .map-selector:after {
+            content: '';
+            position: absolute;
+            background: currentColor;
+            box-sizing: border-box;
+            top: inherit;
+            right: inherit;
+            bottom: inherit;
+            left: inherit;
+            background: currentColor;
+            transition-duration: .3s;
+            transition-timing-function: ease-in-out;
+            transition-property: top, left, right, bottom;
+            pointer-events: none;
+        }
+        
+        .map-selector.hover::after {
+            border: 1px dashed black;
+            background: rgba(255, 255, 255, 0.8);
+            font-size: 12px;
+            color: black;
+            font-weight: bold;
+            overflow: hidden;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        area {
+            cursor: pointer;
+        }
+        
+        textarea {
+            display: none;
+        }
+        
+        ol {
+            counter-reset: item;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        
+        li {
+            display: block;
+            margin-bottom: .5em;
+            margin-left: 2em;
+        }
+        
+        li::before {
+            display: inline-block;
+            content: counter(item) ")";
+            counter-increment: item;
+            width: 2em;
+            margin-left: -2em;
+            text-align: right;
+            transform: translateX(-0.5rem);
+        }
+        
+        .btn-close {
+            background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+            opacity: .8;
+        }
+        
+        .btn-close:hover {
+            opacity: 1;
+        }
+        
+        .hide-Scrollbar,
+        #popular-posts-rooms,
+        #introduction-rooms .nav {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+         ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: #0d6efd;
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #a0a0a0;
+        }
+        
+        html {
+            scrollbar-color: #0d6efd #f1f1f1;
+        }
+        
+        html {
+            --scrollbarBG: #f1f1f1;
+            --thumbBG: #0d6efd;
+        }
+        
+        body {
+            scrollbar-width: thin;
+            scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        }
+    </style>
+</body>
+
+</html>
